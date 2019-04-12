@@ -11,7 +11,7 @@
 #include "ControlUI.h"
 #define HEADER "BG"
 #define TAIL "ED"
-#define SH_NTXQH_SZ "11"
+#define SH_NTXQH_SZ "8"
 
 QString Convert2Time(QString strTime);
 //数据解析

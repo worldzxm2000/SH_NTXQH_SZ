@@ -8,7 +8,7 @@
 //获取业务号
 int GetServiceTypeID()
 {
-	return 11;
+	return 8;
 }
 
 //获取业务名称
@@ -60,6 +60,8 @@ LRESULT Char2Json(QString &buff, QJsonObject &json)
 						SubJson.insert("StationID", strlist.at(1));
 						//业务员类型 08农田小气候
 						SubJson.insert("ServiceTypeID", SH_NTXQH_SZ);
+						//数据存储类型
+						SubJson.insert("DataSourceID", 11);
 						//设备号
 						SubJson.insert("DeviceID", strlist.at(2));
 						//时间
